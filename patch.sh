@@ -174,6 +174,12 @@ imx_next () {
 	${git} "${DIR}/patches/imx_next/0108-ARM-imx_v4_v5_defconfig-drop-CONFIG_COMMON_CLK_DEBUG.patch"
 	${git} "${DIR}/patches/imx_next/0109-ARM-i.MX-Fix-eMMa-PrP-resource-size.patch"
 	${git} "${DIR}/patches/imx_next/0110-ARM-dts-imx6-update-pcie-to-bring-in-line-with-new-b.patch"
+	${git} "${DIR}/patches/imx_next/0111-ARM-designware-split-exynos-and-imx-bindings.patch"
+	${git} "${DIR}/patches/imx_next/0112-ARM-imx6-user-new-clock-names.patch"
+	${git} "${DIR}/patches/imx_next/0113-ARM-imx6-drop-old-irq-mapping.patch"
+	${git} "${DIR}/patches/imx_next/0114-ARM-imx6-rip-out-optional-and-unused-irqs.patch"
+	${git} "${DIR}/patches/imx_next/0115-ARM-designware-make-msi-isr-shared-irq-aware.patch"
+	${git} "${DIR}/patches/imx_next/0116-ARM-imx6-add-support-for-msi.patch"
 }
 
 omap_next () {
